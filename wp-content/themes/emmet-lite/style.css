@@ -1,0 +1,118 @@
+/**
+* Theme Name: Emmet Lite
+* Theme URI: https://motopress.com/products/emmet/
+* Author: MotoPress
+* Author URI: https://motopress.com/
+* Description: Clean and responsive WordPress theme with a professional design created for corporate and portfolio websites. Emmet comes packaged with page builder and fully integrated with WordPress Customizer. Theme works perfect with major WordPress plugins like WooCommerce, bbPress, BuddyPress and many others. After installing the theme navigate to Appearance > Theme Wizard.
+* Version: 1.7.5
+* Tested up to: 5.7
+* Requires PHP: 5.6
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags: one-column,two-columns,right-sidebar,buddypress,custom-colors,custom-menu,featured-images,full-width-template,post-formats,theme-options,translation-ready,custom-header,custom-background,editor-style,threaded-comments,custom-logo
+* Text Domain: emmet-lite
+* Domain Path: /languages/
+*/
+
+.site-main {
+	background: #ebeb7e;
+}
+.site-header {
+    background: #e1d251;
+}
+
+.top-header{
+background: #d5c74f;
+	border-bottom: none;
+}
+.sf-menu>li>a:hover {
+	color: black;
+}
+.top-header .current_page_item a {
+    color: inherit;
+}
+.toTop {
+	background: #7d7b56;
+}
+.fa, .fas {
+    font-size: 80px;
+}
+.sf-menu>li.menu-item-object-custom.current-menu-item.current>a, .sf-menu>li.current_page_item>a, .sf-menu>li.current-menu-item>a, .sf-menu>li:hover>a {
+    color: #976f17;
+}
+.toTop, .toTop:hover, .toTop:focus {
+    width: 88px;
+    height: 88px;
+    z-index: 9999;
+    border-radius: 50%;
+}
+.site-footer {
+	border-top: 3px solid #7d7b56;
+}
+.footer-sidebar {
+	background: #494b40;
+}
+.footer-inner {
+	background: #33342b;
+}
+a, a:hover, a:focus {
+	color: #9f9d72;
+}
+.main-header .menu-toggle:hover {
+	background: #cfcf6f;
+}
+.buddypress-wrap.bp-dir-hori-nav:not(.bp-vertical-navs) nav:not(.tabbed-links) {
+    border-bottom: 1px solid #a9a937;
+    border-top: 1px solid #a9a937;
+    box-shadow: 0 2px 12px 0 #9f821f;
+}
+.buddypress-wrap .bp-navs li.current a, .buddypress-wrap .bp-navs li.current a:focus, .buddypress-wrap .bp-navs li.current a:hover, .buddypress-wrap .bp-navs li.selected a, .buddypress-wrap .bp-navs li.selected a:focus, .buddypress-wrap .bp-navs li.selected a:hover {
+    background: #cfcf5b;
+    color: #766e47;
+}
+.buddypress-wrap .bp-navs li:not(.current) a:focus, .buddypress-wrap .bp-navs li:not(.current) a:hover, .buddypress-wrap .bp-navs li:not(.selected) a:focus, .buddypress-wrap .bp-navs li:not(.selected) a:hover {
+    background: #d5d551;
+    color: #8b9f57;
+}
+.breadcrumb .fa {
+    color: #4f4f4f;
+}
+.buddypress-wrap form#group-members-search, .buddypress-wrap form.bp-dir-search-form, .buddypress-wrap form.bp-messages-search-form, .buddypress-wrap form[data-bp-search].bp-invites-search-form {
+    border: 1px solid #4f4f4f;
+}
+.buddypress-wrap .select-wrap {
+    border: 1px solid #626254;
+}
+.buddypress-wrap .subnav-filters div input[type=search], .buddypress-wrap .subnav-filters div select {
+    font-size: 20px;
+}
+.buddypress-wrap .select-wrap {
+    border: 1px solid #626254;
+}
+.buddypress-wrap .bp-search form:focus, .buddypress-wrap .bp-search form:hover, .buddypress-wrap .select-wrap:focus, .buddypress-wrap .select-wrap:hover {
+    border: 1px solid #181815;
+    box-shadow: inset 0 0 1px #181815;
+}
+.buddypress-wrap .groups-list li .group-desc {
+	border: 1px solid #626254;align-content;
+}
+.bp-list {
+	border-top: 1px solid #626254;
+}
+.bp-list>li {
+    border-bottom: 1px solid #626254;
+}
+.buddypress .buddypress-wrap .activity-read-more a:focus, .buddypress .buddypress-wrap .activity-read-more a:hover, .buddypress .buddypress-wrap .button-nav li a:focus, .buddypress .buddypress-wrap .button-nav li a:hover, .buddypress .buddypress-wrap .button-nav li.current a, .buddypress .buddypress-wrap .comment-reply-link:focus, .buddypress .buddypress-wrap .comment-reply-link:hover, .buddypress .buddypress-wrap .generic-button a:focus, .buddypress .buddypress-wrap .generic-button a:hover, .buddypress .buddypress-wrap a.button:focus, .buddypress .buddypress-wrap a.button:hover, .buddypress .buddypress-wrap button:focus, .buddypress .buddypress-wrap button:hover, .buddypress .buddypress-wrap input[type=button]:focus, .buddypress .buddypress-wrap input[type=button]:hover, .buddypress .buddypress-wrap input[type=reset]:focus, .buddypress .buddypress-wrap input[type=reset]:hover, .buddypress .buddypress-wrap input[type=submit]:focus, .buddypress .buddypress-wrap input[type=submit]:hover {
+    background: #cfcf5b;
+    border-color: #626254;
+	color: #626254;
+}
+.site-main .button:active:focus, .site-main .button:active:hover, .site-main .button:active, .site-main .button:hover, .site-main .button:focus, .site-main button:active:focus, .site-main button:active:hover, .site-main button:active, .site-main button:hover, .site-main button:focus, .site-main input[type="button"]:active:focus, .site-main input[type="button"]:active:hover, .site-main input[type="button"]:active, .site-main input[type="button"]:hover, .site-main input[type="button"]:focus, .site-main input[type="submit"]:active:focus, .site-main input[type="submit"]:active:hover, .site-main input[type="submit"]:active, .site-main input[type="submit"]:hover, .site-main input[type="submit"]:focus, .site-main .added_to_cart:active:focus, .site-main .added_to_cart:active:hover, .site-main .added_to_cart:active, .site-main .added_to_cart:hover, .site-main .added_to_cart:focus, .site-footer .button:active:focus, .site-footer .button:active:hover, .site-footer .button:active, .site-footer .button:hover, .site-footer .button:focus, .site-footer button:active:focus, .site-footer button:active:hover, .site-footer button:active, .site-footer button:hover, .site-footer button:focus, .site-footer input[type="button"]:active:focus, .site-footer input[type="button"]:active:hover, .site-footer input[type="button"]:active, .site-footer input[type="button"]:hover, .site-footer input[type="button"]:focus, .site-footer input[type="submit"]:active:focus, .site-footer input[type="submit"]:active:hover, .site-footer input[type="submit"]:active, .site-footer input[type="submit"]:hover, .site-footer input[type="submit"]:focus, .site-footer .added_to_cart:active:focus, .site-footer .added_to_cart:active:hover, .site-footer .added_to_cart:active, .site-footer .added_to_cart:hover, .site-footer .added_to_cart:focus, .main-header .button:active:focus, .main-header .button:active:hover, .main-header .button:active, .main-header .button:hover, .main-header .button:focus, .main-header button:active:focus, .main-header button:active:hover, .main-header button:active, .main-header button:hover, .main-header button:focus, .main-header input[type="button"]:active:focus, .main-header input[type="button"]:active:hover, .main-header input[type="button"]:active, .main-header input[type="button"]:hover, .main-header input[type="button"]:focus, .main-header input[type="submit"]:active:focus, .main-header input[type="submit"]:active:hover, .main-header input[type="submit"]:active, .main-header input[type="submit"]:hover, .main-header input[type="submit"]:focus, .main-header .added_to_cart:active:focus, .main-header .added_to_cart:active:hover, .main-header .added_to_cart:active, .main-header .added_to_cart:hover, .main-header .added_to_cart:focus {
+    background: #efef66;
+    color: #4f4f4f;
+}
+.buddypress .buddypress-wrap .activity-read-more a, .buddypress .buddypress-wrap .comment-reply-link, .buddypress .buddypress-wrap .generic-button a, .buddypress .buddypress-wrap a.bp-title-button, .buddypress .buddypress-wrap a.button, .buddypress .buddypress-wrap button, .buddypress .buddypress-wrap input[type=button], .buddypress .buddypress-wrap input[type=reset], .buddypress .buddypress-wrap input[type=submit], .buddypress .buddypress-wrap ul.button-nav:not(.button-tabs) li a {
+    background: #efef66;
+    border-color: #4f4f4f;
+    border-radius: 20px !important;
+}
